@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{pressure}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+	\PYG{n}{T} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{T}
+	\PYG{n}{sig} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{sig}
+	\PYG{n}{eps} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{eps}
+	\PYG{n}{L} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{L}
+	\PYG{n}{V} \PYG{o}{=} \PYG{n}{L}\PYG{o}{**}\PYG{l+m+mi}{3}
+	\PYG{n}{d\PYGZus{}sq} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{d\PYGZus{}sq}
+	\PYG{n}{sr2} \PYG{o}{=} \PYG{n}{sig}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{o}{/}\PYG{n}{d\PYGZus{}sq}
+	\PYG{n}{sr6} \PYG{o}{=} \PYG{n}{sr2}\PYG{o}{*}\PYG{n}{sr2}\PYG{o}{*}\PYG{n}{sr2}
+	\PYG{n}{sr12} \PYG{o}{=} \PYG{n}{sr6}\PYG{o}{*}\PYG{n}{sr6}
+	\PYG{n}{P} \PYG{o}{=} \PYG{n}{co}\PYG{o}{.}\PYG{n}{k}\PYG{o}{*}\PYG{n}{T}\PYG{o}{*}\PYG{n}{d\PYGZus{}sq}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{/}\PYG{n}{V} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{24}\PYG{o}{*}\PYG{n}{eps}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sum}\PYG{p}{(}\PYG{n}{sr6} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{sr12}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{o}{*}\PYG{n}{V}\PYG{p}{)}
+	\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{P} \PYG{o}{=} \PYG{n}{P}
+	\PYG{k}{return} \PYG{n}{P}
+\end{Verbatim}

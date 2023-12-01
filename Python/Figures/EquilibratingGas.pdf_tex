@@ -1,0 +1,101 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'EquilibratingGas.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{612bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.70705883)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{EquilibratingGas.pdf}}%
+    \put(0.13262113,0.05463888){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{EquilibratingGas.pdf}}%
+    \put(0.27687459,0.05463888){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{EquilibratingGas.pdf}}%
+    \put(0.42112807,0.05463888){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}40\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{EquilibratingGas.pdf}}%
+    \put(0.56538152,0.05463888){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}60\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{EquilibratingGas.pdf}}%
+    \put(0.70963497,0.05463888){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}80\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{EquilibratingGas.pdf}}%
+    \put(0.85388842,0.05463888){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}100\end{tabular}}}}%
+    \put(0.48964846,0.01268115){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}trial moves in $2N$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{EquilibratingGas.pdf}}%
+    \put(0.0854805,0.08065257){\color[rgb]{0.83921569,0.15294118,0.15686275}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}88\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{EquilibratingGas.pdf}}%
+    \put(0.0854805,0.20014605){\color[rgb]{0.83921569,0.15294118,0.15686275}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}90\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{EquilibratingGas.pdf}}%
+    \put(0.0854805,0.31963949){\color[rgb]{0.83921569,0.15294118,0.15686275}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}92\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{EquilibratingGas.pdf}}%
+    \put(0.0854805,0.43913296){\color[rgb]{0.83921569,0.15294118,0.15686275}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}94\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{EquilibratingGas.pdf}}%
+    \put(0.0854805,0.55862642){\color[rgb]{0.83921569,0.15294118,0.15686275}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}96\end{tabular}}}}%
+    \put(0.02289113,0.38540435){\color[rgb]{0.83921569,0.15294118,0.15686275}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Acceptace rate\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.10196825){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.17004983){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.23813135){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.30621296){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.37429451){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.44237608){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.51045764){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.57853921){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{EquilibratingGas.pdf}}%
+    \put(0.89381638,0.64662078){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3.00\end{tabular}}}}%
+    \put(0.99571845,0.38540436){\color[rgb]{0.12156863,0.46666667,0.70588235}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Step size in \si{\angstrom}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{EquilibratingGas.pdf}}%
+  \end{picture}%
+\endgroup%

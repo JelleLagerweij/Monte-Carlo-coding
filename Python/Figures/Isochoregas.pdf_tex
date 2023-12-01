@@ -1,0 +1,85 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Isochoregas.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{397.2121582bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.75493322)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Isochoregas.pdf}}%
+    \put(0.11315907,0.04344836){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}150\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Isochoregas.pdf}}%
+    \put(0.28605639,0.04344836){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}200\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Isochoregas.pdf}}%
+    \put(0.45895373,0.04344836){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}250\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Isochoregas.pdf}}%
+    \put(0.63185111,0.04344836){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}300\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Isochoregas.pdf}}%
+    \put(0.80474841,0.04344836){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}350\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Isochoregas.pdf}}%
+    \put(0.97764571,0.04344836){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0.54540242,0.00523672){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Temperature in \si{\K}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Isochoregas.pdf}}%
+    \put(0.07824652,0.18591676){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Isochoregas.pdf}}%
+    \put(0.07824652,0.33142614){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Isochoregas.pdf}}%
+    \put(0.07824652,0.47693552){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Isochoregas.pdf}}%
+    \put(0.07824652,0.62244495){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3.0\end{tabular}}}}%
+    \put(0.01912745,0.41895156){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}pressure in \si{bar}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Isochoregas.pdf}}%
+    \put(0.18901855,0.71213886){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Gas measured\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Isochoregas.pdf}}%
+    \put(0.18901855,0.66385704){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Gas $N=362$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Isochoregas.pdf}}%
+    \put(0.18901855,0.61557522){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Gas $N=1000$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

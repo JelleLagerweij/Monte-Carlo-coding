@@ -1,0 +1,90 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Equilibrating_zoomed_in.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{413.34265137bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.75761074)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.17432361,0.05883675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.30531708,0.05883675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.43631056,0.05883675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.56730403,0.05883675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.6982975,0.05883675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.82929093,0.05883675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.96028443,0.05883675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3.0\end{tabular}}}}%
+    \put(0.56704204,0.00034259){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}amount of trial moves\end{tabular}}}}%
+    \put(0.9990323,0.00276189){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1e6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.11811666,0.09585017){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}−10.1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.11811666,0.2246111){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}−10.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.11811666,0.35337209){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}−9.9\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.11811666,0.48213306){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}−9.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.11811666,0.61089402){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}−9.7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.11811666,0.73965499){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}−9.6\end{tabular}}}}%
+    \put(0.01838101,0.42694402){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}total energy in \si{\zepto\joule}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.68653427,0.70868984){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Without equilibration\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{Equilibrating_zoomed_in.pdf}}%
+    \put(0.68653427,0.65866324){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}With equilibration\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

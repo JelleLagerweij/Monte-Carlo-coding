@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{totalEnergy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{n}{d\PYGZus{}sq} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{d\PYGZus{}sq}\PYG{p}{)}
+	\PYG{n}{N} \PYG{o}{=} \PYG{n}{d\PYGZus{}sq}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}
+	\PYG{n}{Rcut} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{Rcut}
+	\PYG{n}{eps} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{eps}
+	\PYG{n}{sig} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{sig}
+	\PYG{n}{tail} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tail}
+	\PYG{n}{shift} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shift}
+	
+	\PYG{n}{d\PYGZus{}sq}\PYG{p}{[}\PYG{n}{d\PYGZus{}sq} \PYG{o}{\PYGZgt{}} \PYG{n}{Rcut}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{inf}
+	\PYG{n}{sr6} \PYG{o}{=} \PYG{n}{sig}\PYG{o}{**}\PYG{l+m+mi}{6}\PYG{o}{/}\PYG{p}{(}\PYG{n}{d\PYGZus{}sq}\PYG{o}{*}\PYG{n}{d\PYGZus{}sq}\PYG{o}{*}\PYG{n}{d\PYGZus{}sq}\PYG{p}{)}
+	\PYG{n}{sr12} \PYG{o}{=} \PYG{n}{sr6}\PYG{o}{*}\PYG{n}{sr6}
+	\PYG{n}{n} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{count\PYGZus{}nonzero}\PYG{p}{(}\PYG{n}{sr6}\PYG{p}{)}
+	\PYG{n}{Etot} \PYG{o}{=} \PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{eps}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sum}\PYG{p}{(}\PYG{n}{sr12}\PYG{o}{\PYGZhy{}}\PYG{n}{sr6}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{n}\PYG{o}{*}\PYG{n}{shift}\PYG{o}{/}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{n}{N}\PYG{o}{*}\PYG{n}{tail}
+	\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{Etot} \PYG{o}{=} \PYG{n}{Etot}
+	\PYG{k}{return} \PYG{n}{Etot}
+\end{Verbatim}

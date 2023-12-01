@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{k}{def} \PYG{n+nf}{modelCorrections}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{Rcut}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,} \PYG{n}{Tail}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,} \PYG{n}{Shift}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+		\PYG{n}{sig} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{sig}
+		\PYG{n}{eps} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{eps}
+		
+		\PYG{k}{if} \PYG{n}{Rcut} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{False}\PYG{p}{:}
+		\PYG{n}{Rcut} \PYG{o}{=} \PYG{n}{Rcut}\PYG{o}{*}\PYG{l+m+mf}{1e\PYGZhy{}10}
+		\PYG{k}{if} \PYG{n}{Rcut} \PYG{o}{\PYGZgt{}} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{L}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{:}
+		\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Cutoff distance is more than half the box size, as\PYGZsq{}}\PYG{p}{,}
+		\PYG{l+s+s1}{\PYGZsq{}remidy, Rcut is set to default, Rcut = L/2\PYGZsq{}}\PYG{p}{)}
+		\PYG{k}{else}\PYG{p}{:}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{Rcut} \PYG{o}{=} \PYG{n}{Rcut}
+		
+		\PYG{n}{Rcut} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{Rcut}
+		\PYG{k}{if} \PYG{n}{Tail} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{False}\PYG{p}{:}
+		\PYG{n}{tail\PYGZus{}factor} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{8}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{*}\PYG{n}{N}\PYG{o}{*}\PYG{n}{eps}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{power}\PYG{p}{(}\PYG{n}{sig}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{))}\PYG{o}{/}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{power}\PYG{p}{(}\PYG{n}{L}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{))}
+		\PYG{n}{tail\PYGZus{}distances} \PYG{o}{=} \PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{power}\PYG{p}{(}\PYG{n}{sig}\PYG{o}{/}\PYG{n}{Rcut}\PYG{p}{,} \PYG{l+m+mi}{9}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mi}{3}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{np}\PYG{o}{.}\PYG{n}{power}\PYG{p}{(}\PYG{n}{sig}\PYG{o}{/}\PYG{n}{Rcut}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{)}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tail} \PYG{o}{=} \PYG{n}{tail\PYGZus{}factor}\PYG{o}{*}\PYG{n}{tail\PYGZus{}distances}
+		
+		\PYG{k}{if} \PYG{n}{Shift} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{False}\PYG{p}{:}
+		\PYG{n}{shift\PYGZus{}factor} \PYG{o}{=} \PYG{l+m+mi}{4}\PYG{o}{*}\PYG{n}{eps}
+		\PYG{n}{shift\PYGZus{}distances} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{power}\PYG{p}{(}\PYG{n}{sig}\PYG{o}{/}\PYG{n}{Rcut}\PYG{p}{,} \PYG{l+m+mi}{12}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{np}\PYG{o}{.}\PYG{n}{power}\PYG{p}{(}\PYG{n}{sig}\PYG{o}{/}\PYG{n}{Rcut}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{)}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shift} \PYG{o}{=} \PYG{n}{shift\PYGZus{}factor}\PYG{o}{*}\PYG{n}{shift\PYGZus{}distances}
+\end{Verbatim}

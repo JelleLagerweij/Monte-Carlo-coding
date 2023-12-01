@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+
+<svg
+   height="319.82019pt"
+   version="1.1"
+   viewBox="0 0 401.60047 319.82018"
+   width="401.60046pt"
+   id="svg185"
+   sodipodi:docname="Equilibrating_zoomed_out.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview187"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="1.9509548"
+     inkscape:cx="289.08922"
+     inkscape:cy="188.62559"
+     inkscape:window-width="2560"
+     inkscape:window-height="1566"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="figure_1" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:date>2022-05-23T14:54:02.627223</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Matplotlib v3.3.4, https://matplotlib.org/</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <style
+       type="text/css"
+       id="style4">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+  </defs>
+  <g
+     id="figure_1"
+     transform="translate(-13.519531,-31.181961)">
+    <g
+       id="patch_2">
+      <path
+         d="M 57.6,307.584 H 414.72 V 41.472 H 57.6 Z"
+         style="fill:#ffffff"
+         id="path11" />
+    </g>
+    <g
+       id="line2d_1">
+      <defs
+         id="defs15">
+        <path
+           d="M 0,0 V 3.5"
+           id="m9fb12df00d"
+           style="stroke:#000000;stroke-width:0.8" />
+      </defs>
+      <g
+         id="g19">
+        <use
+           style="stroke:#000000;stroke-width:0.8"
+           x="73.832726"
+           xlink:href="#m9fb12df00d"
+           y="307.58401"
+           id="use17"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       id="text_1"
+       transform="translate(0,3)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         x="73.832726"
+         y="322.18243"
+         id="text22">0.0</text>
+    </g>
+    <g
+       id="line2d_2">
+      <g
+         id="g28">
+        <use
+           style="stroke:#000000;stroke-width:0.8"
+           x="127.97791"
+           xlink:href="#m9fb12df00d"
+           y="307.58401"
+           id="use26"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       id="text_2"
+       transform="translate(0,3)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         x="127.97791"
+         y="322.18243"
+         id="text31">0.5</text>
+    </g>
+    <g
+       id="line2d_3">
+      <g
+         id="g37">
+        <use
+           style="stroke:#000000;stroke-width:0.8"
+           x="182.12311"
+           xlink:href="#m9fb12df00d"
+           y="307.58401"
+           id="use35"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       id="text_3"
+       transform="translate(0,3)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         x="182.12311"
+         y="322.18243"
+         id="text40">1.0</text>
+    </g>
+    <g
+       id="line2d_4">
+      <g
+         id="g46">
+        <use
+           style="stroke:#000000;stroke-width:0.8"
+           x="236.2683"
+           xlink:href="#m9fb12df00d"
+           y="307.58401"
+           id="use44"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       id="text_4"
+       transform="translate(0,3)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         x="236.2683"
+         y="322.18243"
+         id="text49">1.5</text>
+    </g>
+    <g
+       id="line2d_5">
+      <g
+         id="g55">
+        <use
+           style="stroke:#000000;stroke-width:0.8"
+           x="290.41348"
+           xlink:href="#m9fb12df00d"
+           y="307.58401"
+           id="use53"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       id="text_5"
+       transform="translate(0,3)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         x="290.41348"
+         y="322.18243"
+         id="text58">2.0</text>
+    </g>
+    <g
+       id="line2d_6">
+      <g
+         id="g64">
+        <use
+           style="stroke:#000000;stroke-width:0.8"
+           x="344.55865"
+           xlink:href="#m9fb12df00d"
+           y="307.58401"
+           id="use62"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       id="text_6"
+       transform="translate(0,3)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         x="344.55865"
+         y="322.18243"
+         id="text67">2.5</text>
+    </g>
+    <g
+       id="line2d_7">
+      <g
+         id="g73">
+        <use
+           style="stroke:#000000;stroke-width:0.8"
+           x="398.70386"
+           xlink:href="#m9fb12df00d"
+           y="307.58401"
+           id="use71"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       id="text_7"
+       transform="translate(0,3)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         x="398.70386"
+         y="322.18243"
+         id="text76">3.0</text>
+    </g>
+    <g
+       id="text_8"
+       transform="translate(0,15)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         x="236.16"
+         y="335.86057"
+         id="text80">amount of trial moves</text>
+    </g>
+    <g
+       id="text_9"
+       transform="translate(0,15)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:end"
+         x="414.72"
+         y="334.86057"
+         id="text83">1e6</text>
+    </g>
+    <g
+       id="ytick_1">
+      <g
+         id="line2d_8">
+        <defs
+           id="defs88">
+          <path
+             d="M 0,0 H -3.5"
+             id="m6c4cc1f9ea"
+             style="stroke:#000000;stroke-width:0.8" />
+        </defs>
+        <g
+           id="g92">
+          <use
+             style="stroke:#000000;stroke-width:0.8"
+             x="57.599998"
+             xlink:href="#m6c4cc1f9ea"
+             y="295.48788"
+             id="use90"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+      <g
+         id="text_10">
+        <text
+           style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:end"
+           x="50.599998"
+           y="299.28711"
+           id="text95">0.0</text>
+      </g>
+    </g>
+    <g
+       id="ytick_2">
+      <g
+         id="line2d_9">
+        <g
+           id="g101">
+          <use
+             style="stroke:#000000;stroke-width:0.8"
+             x="57.599998"
+             xlink:href="#m6c4cc1f9ea"
+             y="240.35127"
+             id="use99"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+      <g
+         id="text_11">
+        <text
+           style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:end"
+           x="50.599998"
+           y="244.1505"
+           id="text104">0.5</text>
+      </g>
+    </g>
+    <g
+       id="ytick_3">
+      <g
+         id="line2d_10">
+        <g
+           id="g110">
+          <use
+             style="stroke:#000000;stroke-width:0.8"
+             x="57.599998"
+             xlink:href="#m6c4cc1f9ea"
+             y="185.21468"
+             id="use108"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+      <g
+         id="text_12">
+        <text
+           style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:end"
+           x="50.599998"
+           y="189.01389"
+           id="text113">1.0</text>
+      </g>
+    </g>
+    <g
+       id="ytick_4">
+      <g
+         id="line2d_11">
+        <g
+           id="g119">
+          <use
+             style="stroke:#000000;stroke-width:0.8"
+             x="57.599998"
+             xlink:href="#m6c4cc1f9ea"
+             y="130.07806"
+             id="use117"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+      <g
+         id="text_13">
+        <text
+           style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:end"
+           x="50.599998"
+           y="133.87727"
+           id="text122">1.5</text>
+      </g>
+    </g>
+    <g
+       id="ytick_5">
+      <g
+         id="line2d_12">
+        <g
+           id="g128">
+          <use
+             style="stroke:#000000;stroke-width:0.8"
+             x="57.599998"
+             xlink:href="#m6c4cc1f9ea"
+             y="74.941452"
+             id="use126"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+      <g
+         id="text_14">
+        <text
+           style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:end"
+           x="50.599998"
+           y="78.740669"
+           id="text131">2.0</text>
+      </g>
+    </g>
+    <g
+       id="text_15"
+       transform="translate(-7.5)">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:middle"
+         transform="rotate(-90,28.617187,174.528)"
+         x="28.617188"
+         y="174.528"
+         id="text135">total energy in \si{\zepto\joule}</text>
+    </g>
+    <g
+       id="text_16">
+      <text
+         style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:start"
+         x="57.599998"
+         y="38.472"
+         id="text138">1e7</text>
+    </g>
+    <g
+       id="line2d_13">
+      <path
+         clip-path="url(#p6b9b939939)"
+         d="m 73.832727,53.568 0.216581,2.243728 0.216581,239.600352 0.433161,0.0741 27.07259,0.002 h 296.71563 v 0"
+         style="fill:none;stroke:#1f77b4;stroke-width:1.5;stroke-linecap:square"
+         id="path142" />
+    </g>
+    <g
+       id="line2d_14">
+      <path
+         clip-path="url(#p6b9b939939)"
+         d="M 73.832727,295.488 H 398.48727 v 0"
+         style="fill:none;stroke:#ff7f0e;stroke-width:1.5;stroke-linecap:square"
+         id="path145" />
+    </g>
+    <g
+       id="patch_3">
+      <path
+         d="M 57.6,307.584 V 41.472"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+         id="path148" />
+    </g>
+    <g
+       id="patch_4">
+      <path
+         d="M 414.72,307.584 V 41.472"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+         id="path151" />
+    </g>
+    <g
+       id="patch_5">
+      <path
+         d="M 57.6,307.584 H 414.72"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+         id="path154" />
+    </g>
+    <g
+       id="patch_6">
+      <path
+         d="M 57.6,41.472 H 414.72"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+         id="path157" />
+    </g>
+    <g
+       id="legend_1"
+       transform="translate(-16.5)">
+      <g
+         id="line2d_15">
+        <path
+           d="m 272.55125,54.570437 h 20"
+           style="fill:none;stroke:#1f77b4;stroke-width:1.5;stroke-linecap:square"
+           id="path163" />
+      </g>
+      <g
+         id="line2d_16" />
+      <g
+         id="text_17">
+        <text
+           style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:start"
+           x="300.55124"
+           y="58.070438"
+           id="text167">Without equilibration</text>
+      </g>
+      <g
+         id="line2d_17"
+         transform="translate(0,6)">
+        <path
+           d="m 272.55125,69.248562 h 20"
+           style="fill:none;stroke:#ff7f0e;stroke-width:1.5;stroke-linecap:square"
+           id="path170" />
+      </g>
+      <g
+         id="line2d_18" />
+      <g
+         id="text_18"
+         transform="translate(0,6)">
+        <text
+           style="font-style:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';text-anchor:start"
+           x="300.55124"
+           y="72.748566"
+           id="text174">With equilibration</text>
+      </g>
+    </g>
+  </g>
+  <defs
+     id="defs183">
+    <clipPath
+       id="p6b9b939939">
+      <rect
+         height="266.112"
+         width="357.12"
+         x="57.599998"
+         y="41.472"
+         id="rect180" />
+    </clipPath>
+  </defs>
+</svg>

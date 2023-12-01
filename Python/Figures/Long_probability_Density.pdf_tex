@@ -1,0 +1,93 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Long_probability_Density.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{403.67214966bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.74656786)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Long_probability_Density.pdf}}%
+    \put(0.08938788,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Long_probability_Density.pdf}}%
+    \put(0.19997267,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Long_probability_Density.pdf}}%
+    \put(0.31055747,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Long_probability_Density.pdf}}%
+    \put(0.42114226,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}7.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Long_probability_Density.pdf}}%
+    \put(0.53172705,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Long_probability_Density.pdf}}%
+    \put(0.6423118,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}12.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Long_probability_Density.pdf}}%
+    \put(0.75289663,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}15.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Long_probability_Density.pdf}}%
+    \put(0.86348138,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}17.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Long_probability_Density.pdf}}%
+    \put(0.97406621,0.04646894){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20.0\end{tabular}}}}%
+    \put(0.53172705,0.00515291){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}radial distance in \si{\angstrom}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Long_probability_Density.pdf}}%
+    \put(0.07204707,0.10690215){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Long_probability_Density.pdf}}%
+    \put(0.07204707,0.21586101){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Long_probability_Density.pdf}}%
+    \put(0.07204707,0.32481987){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Long_probability_Density.pdf}}%
+    \put(0.07204707,0.43377873){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{Long_probability_Density.pdf}}%
+    \put(0.07204707,0.54273758){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{Long_probability_Density.pdf}}%
+    \put(0.07204707,0.65169642){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
+    \put(0.0138741,0.41596293){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}occurence\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{Long_probability_Density.pdf}}%
+    \put(0.72139755,0.70445834){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\rho=\SI{357.4}{\kg\per\m^3}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{Long_probability_Density.pdf}}%
+    \put(0.72139755,0.66066506){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\rho=\SI{9.68}{\kg\per\m^3}$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

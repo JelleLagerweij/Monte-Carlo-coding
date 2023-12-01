@@ -1,0 +1,95 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Isochoreliquid.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{406.7590332bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.74090217)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Isochoreliquid.pdf}}%
+    \put(0.13397375,0.04611629){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}150\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Isochoreliquid.pdf}}%
+    \put(0.30281307,0.04611629){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}200\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Isochoreliquid.pdf}}%
+    \put(0.47165241,0.04611629){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}250\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Isochoreliquid.pdf}}%
+    \put(0.64049178,0.04611629){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}300\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Isochoreliquid.pdf}}%
+    \put(0.80933108,0.04611629){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}350\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Isochoreliquid.pdf}}%
+    \put(0.97817038,0.04611629){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0.5560721,0.00511381){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Temperature in \si{\K}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.10224638){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.17957452){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}250\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.25690266){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.33423076){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}750\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.41155889){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1000\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.48888703){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1250\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.56621513){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.64354329){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1750\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{Isochoreliquid.pdf}}%
+    \put(0.09988062,0.72087142){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2000\end{tabular}}}}%
+    \put(0.01867852,0.4128062){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}pressure in \si{bar}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{Isochoreliquid.pdf}}%
+    \put(0.20805277,0.69911223){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Liquid measured\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{Isochoreliquid.pdf}}%
+    \put(0.20805277,0.65196361){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Liquid $N=362$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{Isochoreliquid.pdf}}%
+    \put(0.20805277,0.604815){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Liquid $N=1000$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,5 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'article-Bram.blg'
+[142] biber-MSWIN64:340> INFO - === 
+[497] Utils.pm:411> ERROR - Cannot find 'article-Bram.bcf'!
+[497] Biber.pm:132> INFO - ERRORS: 1

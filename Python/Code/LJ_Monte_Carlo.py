@@ -41,6 +41,15 @@ class State:
             raise ValueError("N_or_file has to be the ammount of particles",
                              "int, or the file location with an initial state")
 
+    def modelCorrections(self, Rcut=14, Tail=False, Shift=False):
+            self.Rcut = Rcut
+            
+            if Shift is True:
+                self.shift = 4*self.eps*((self.sig/self.Rcut)**12 - (self.sig/self.Rcut)**6)
+                
+            if Tail is True:
+                self.tail = 0  # TODO here as otherwise no tail correction implemented
+        
     def allDistances(self):
         x = self.x
         L = self.L
@@ -112,6 +121,19 @@ class State:
         n = np.count_nonzero(sr6)  # number of particles inside Rcut
         E_single = 4*eps*np.sum(sr12 - sr6) - n*shift + tail
         return E_single
+    
+    def newStepsize(self):
+        if self.acceptance < 0.2:
+            self.max_step *= 0.7
+        elif self.acceptance < 0.4:
+            self.max_step *= 0.95
+        elif self.acceptance > 0.8:
+            self.max_step /= 0.7
+        elif self.acceptance > 0.5:
+            self.max_step /= -.95
+        
+        if self.max_step > self.L/2:
+            self.max_step = self.L
 
 
 def monteCarlo(state, n, max_step_init, startup_eq=True):
@@ -153,10 +175,10 @@ def monteCarlo(state, n, max_step_init, startup_eq=True):
     L = state.L
     N, D = x.shape
 
-    stepsize_startup = np.zeros(100)
-    acceptance_rate = np.zeros(100)
+    stepsize_startup = np.zeros(1000)
+    acceptance_rate = np.zeros(1000)
     if startup_eq is True:
-        for j in range(100):
+        for j in range(1000):
             state.accept = 0
             for i in range(int(N)):
                 translate(state)
@@ -178,20 +200,19 @@ def monteCarlo(state, n, max_step_init, startup_eq=True):
 
     for i in range(n):
         state.accept = 0
-        for j in range(2*N):
+        for j in range(N):
             translate(state)
-        state.acceptance = state.accept/(2*N)
-        state.newStepsize()
+        state.acceptance = state.accept/(N)
         state.allDistances()
         E_tot[i] = state.totalEnergy()
         P[i] = state.pressure()
         n_r = np.histogram(np.sqrt(state.d_sq), bins=1000, range=(0, L/2))[0]
         rad_dis[:, i] = (L**3*n_r)/(N*(N-1)*4*np.pi*(r**2)*(r[1]-r[0]))
-        state.progress = i/n
-        update_progress(state.progress)
+        # state.progress = i/n
+        # update_progress(state.progress)
 
-    state.progress = 1
-    update_progress(state.progress)
+    # state.progress = 1
+    # update_progress(state.progress)
 
     state.trial_moves = 2*N*np.arange(n)
     state.E_tot = E_tot
@@ -239,52 +260,67 @@ def translate(state):
             state.x = state.x_trial
             state.accept = state.accept + 1
 
+# def statistics(s):
+#     """
+#     Calculates the mean value and the error of this estimation.
+#     The error is compensated for the autocorrolation.
+
+#     Parameters
+#     ----------
+#     s : Array
+#         The data measured over time.
+
+#     Returns
+#     -------
+#     mean : float
+#         The mean value of the array.
+#     error : float
+#         the error estimation, expresed as standard deviation, compensated
+#         for autocorrolation.
+
+#     """
+#     # collect most important characterstics of array
+#     N = s.shape[0]  # size
+#     mean = s.mean()  # mean value
+#     var = np.var(s)  # variance of entire set
+#     # If no statistic behaviour exists
+#     if var == 0.0:
+#         mean, error, tao, g = mean, 0, 0, 0
+#     # Otherwise calculate the correct error estimation
+#     else:
+#         sp = s - mean  # deviation of the mean per index
+
+#         # Calculating the total corrolation
+#         corr = np.zeros(N)
+#         corr[0] = 1
+#         for n in range(1, N):
+#             corr[n] = np.sum(sp[n:]*sp[:-n]/(var*N))
+
+#         # To not fitt too long of a data set, the first time that the
+#         # corrolation drops under 0.1 is recorded and only the data before
+#         # that is fitted
+#         g = np.argmax(corr < 0.1)
+#         t = np.arange(2*g)
+#         tao = opt.curve_fit(lambda t, b: np.exp(-t/b),  t,
+#                             corr[:2*g], p0=(g))[0][0]
+#         error = np.sqrt(2*tao*s.var()/N)
+        
+#         N = s.shape[0]
+#     return (mean, error)
+
 def statistics(s):
-    """
-    Calculates the mean value and the error of this estimation.
-    The error is compensated for the autocorrolation.
-
-    Parameters
-    ----------
-    s : Array
-        The data measured over time.
-
-    Returns
-    -------
-    mean : float
-        The mean value of the array.
-    error : float
-        the error estimation, expresed as standard deviation, compensated
-        for autocorrolation.
-
-    """
-    # collect most important characterstics of array
-    N = s.shape[0]  # size
-    mean = s.mean()  # mean value
-    var = np.var(s)  # variance of entire set
-    # If no statistic behaviour exists
-    if var == 0.0:
-        mean, error, tao, g = mean, 0, 0, 0
-    # Otherwise calculate the correct error estimation
-    else:
-        sp = s - mean  # deviation of the mean per index
-
-        # Calculating the total corrolation
-        corr = np.zeros(N)
-        corr[0] = 1
-        for n in range(1, N):
-            corr[n] = np.sum(sp[n:]*sp[:-n]/(var*N))
-
-        # To not fitt too long of a data set, the first time that the
-        # corrolation drops under 0.1 is recorded and only the data before
-        # that is fitted
-        g = np.argmax(corr < 0.1)
-        t = np.arange(2*g)
-        tao = opt.curve_fit(lambda t, b: np.exp(-t/b),  t,
-                            corr[:2*g], p0=(g))[0][0]
-        error = np.sqrt(2*tao*s.var()/N)
+    # Split the array into blocks
+    num_blocks = 5
+    s_blocks = np.array_split(s, num_blocks)
+    
+    # Calculate the mean of each block
+    block_means = [np.mean(block) for block in s_blocks]
+    
+    # Calculate the mean and standard error of the block means
+    mean = np.mean(block_means)
+    error = np.std(block_means, ddof=1) / np.sqrt(num_blocks)
+    
     return (mean, error)
-
 
 def update_progress(progress):
     """

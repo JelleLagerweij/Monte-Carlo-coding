@@ -7,7 +7,7 @@ Created on Thu May  5 23:35:59 2022
 
 import LJ_Monte_Carlo as mc
 import numpy as np
-from CoolProp.CoolProp import PropsSI
+# from CoolProp.CoolProp import PropsSI
 import matplotlib.pyplot as plt
 plt.rcParams['svg.fonttype'] = 'none'  # This enables editing plots as svg's.
 plt.close('all')
@@ -26,24 +26,27 @@ m_a = 16.04246  # amu
 eps = 148  # k_b*T
 sig = 3.73  # Angstrom
 
-T = np.linspace(150, 400, 6)
+# T = np.linspace(150, 400, 6)
+T = np.array([150])
 P_L_362 = np.zeros((len(T), 2))
 P_G_362 = np.zeros((len(T), 2))
 P_L_1000 = np.zeros((len(T), 2))
 P_G_1000 = np.zeros((len(T), 2))
 
+E =np.zeros((len(T), 2))
+
 for i in range(len(T)):
-    n = 362
-    N = 2500
+    n = 3000
+    N = 362
     rho = 358.4  # kg/m^3
     methane = mc.State(T[i], rho, m_a, eps, sig, N)
-    #methane.modelCorrections(Rcut=14, Tail=True, Shift=True)
-    E, P_L_362[i, :], rad, r = mc.monteCarlo(methane, n, max_step_init=0.5)
+    methane.modelCorrections(Rcut=14, Tail=False, Shift=True)
+    E[i, :], P_L_362[i, :], rad, r = mc.monteCarlo(methane, n, max_step_init=0.5)
 
-    rho = 1.6  # kg/m^3
-    methane = mc.State(T[i], rho, m_a, eps, sig, N)
-    methane.modelCorrections(Rcut=50, Tail=True, Shift=True)
-    E, P_G_362[i, :], rad, r = mc.monteCarlo(methane, n, max_step_init=0.5)
+    # rho = 1.6  # kg/m^3
+    # methane = mc.State(T[i], rho, m_a, eps, sig, N)
+    # methane.modelCorrections(Rcut=50, Tail=True, Shift=True)
+    # E, P_G_362[i, :], rad, r = mc.monteCarlo(methane, n, max_step_init=0.5)
 
     # n = 1000
     # N = 1000
@@ -67,7 +70,7 @@ for i in range(len(T)):
 #     rho = 1.6  # kg/m^3
 #     P_G_coolp[i] = PropsSI('P', 'T', T_coolp[i], 'D', rho, 'methane')
 
-
+print('Temperature', T, 'pressure', P_L_362[:, 0]*1e-5, 'bar and energy', E[:, 0]*1e21/N, 'zJ per atom')
 plt.figure(1)
 plt.errorbar(T, P_L_362[:, 0]*1e-5, yerr=P_L_362[:, 1]*1e-5, color='C0',
              label='Liquid N=362', fmt='o', capsize=3)
@@ -78,17 +81,18 @@ plt.xlabel('Temperature in \si{\K}')
 plt.ylabel('pressure in \si{bar}')
 plt.legend()
 plt.xlim(145, 405)
+plt.savefig('result.jpg')
 
-plt.figure(2)
-plt.errorbar(T, P_G_362[:, 0]*1e-5, yerr=P_G_362[:, 1]*1e-5, color='C0',
-             label='Gas Liquid N=362', fmt='o', capsize=3)
+# plt.figure(2)
+# plt.errorbar(T, P_G_362[:, 0]*1e-5, yerr=P_G_362[:, 1]*1e-5, color='C0',
+#              label='Gas Liquid N=362', fmt='o', capsize=3)
 # plt.errorbar(T, P_G_1000[:, 0]*1e-5, yerr=P_G_1000[:, 1]*1e-5, color='C1',
 #               label='Gas Liquid N=1000', fmt='o', capsize=3)
 # plt.plot(T_coolp, P_G_coolp*1e-5, color='C2', label='Gas measured')
-plt.xlabel('Temperature in \si{\K}')
-plt.ylabel('pressure in \si{bar}')
-plt.legend()
-plt.xlim(145, 405)
+# plt.xlabel('Temperature in \si{\K}')
+# plt.ylabel('pressure in \si{bar}')
+# plt.legend()
+# plt.xlim(145, 405)
 
 # T = 150  # Kelvin
 # N = 500

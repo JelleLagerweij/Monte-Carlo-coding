@@ -117,7 +117,7 @@ class State:
         sr_2 = sig**2/d_sq
         sr6 = sr_2*sr_2*sr_2   # atractive part of the LJ potential
         sr12 = sr6*sr6  # repulsive part of the LJ potential (Pauli)
-
+ 
         n = np.count_nonzero(sr6)  # number of particles inside Rcut
         E_single = 4*eps*np.sum(sr12 - sr6) - n*shift + tail
         return E_single
@@ -260,53 +260,6 @@ def translate(state):
             state.x = state.x_trial
             state.accept = state.accept + 1
 
-# def statistics(s):
-#     """
-#     Calculates the mean value and the error of this estimation.
-#     The error is compensated for the autocorrolation.
-
-#     Parameters
-#     ----------
-#     s : Array
-#         The data measured over time.
-
-#     Returns
-#     -------
-#     mean : float
-#         The mean value of the array.
-#     error : float
-#         the error estimation, expresed as standard deviation, compensated
-#         for autocorrolation.
-
-#     """
-#     # collect most important characterstics of array
-#     N = s.shape[0]  # size
-#     mean = s.mean()  # mean value
-#     var = np.var(s)  # variance of entire set
-#     # If no statistic behaviour exists
-#     if var == 0.0:
-#         mean, error, tao, g = mean, 0, 0, 0
-#     # Otherwise calculate the correct error estimation
-#     else:
-#         sp = s - mean  # deviation of the mean per index
-
-#         # Calculating the total corrolation
-#         corr = np.zeros(N)
-#         corr[0] = 1
-#         for n in range(1, N):
-#             corr[n] = np.sum(sp[n:]*sp[:-n]/(var*N))
-
-#         # To not fitt too long of a data set, the first time that the
-#         # corrolation drops under 0.1 is recorded and only the data before
-#         # that is fitted
-#         g = np.argmax(corr < 0.1)
-#         t = np.arange(2*g)
-#         tao = opt.curve_fit(lambda t, b: np.exp(-t/b),  t,
-#                             corr[:2*g], p0=(g))[0][0]
-#         error = np.sqrt(2*tao*s.var()/N)
-        
-#         N = s.shape[0]
-#     return (mean, error)
 
 def statistics(s):
     # Split the array into blocks
